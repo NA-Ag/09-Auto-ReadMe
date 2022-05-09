@@ -139,12 +139,13 @@ ${data.description}
 - [Questions](#questions)
 ## Installation
 To install necessary dependencies, follow the next steps and run these commands:
-\`\`\`bash
+Git bash
 ${data.installation}
 \`\`\`
 ## Usage
 ${data.usage}
 ## License
+${licenseBadge}
 ${licenseSection}
 ## Contributing
 ${data.contributing}

@@ -1,6 +1,3 @@
-# 09-Assignment-Auto-ReadMe
-A generator of quality Read me files
-
 # README Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
@@ -36,5 +33,3 @@ To run tests, run the following command:
 ```bash
 node and your file
 ```
-screenshot  ![](./Images/06-screenshot-working.PNG)
-link to repository (https://github.com/NA-Ag/09-Assignment-Auto-ReadMe)
