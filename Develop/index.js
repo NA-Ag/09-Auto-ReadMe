@@ -44,24 +44,28 @@ const questions = [
     {
         type: "input",
         name: "contributing",
-        message: "User contibution guidelines go here",
+        message: "User contribution guidelines go here",
         default: "Contributor: Na-Ag"
     },
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, (err) =>    
-    err ? console.log(err) : console.log('Successfully created README.md')
-    )
+    let generateMarkdown = generateMarkdown(data);
+    fs.writeFile(fileName, generateMarkdown, (err) => {
+        err ? console.log(err) : console.log("Serving up your README");
+    })
 }
+
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions).then((data) => {
-        const dataForReadme = genMarkdown(data);
-        writeToFile("README.md", dataForReadme);
-    });
+    inquirer
+        .prompt(questions)
+        .then((data) => {
+            writeToFile("README.md", data);
+        })
+        .catch((err) => console.log(err))
 }
 
 // Function call to initialize app
