@@ -38,3 +38,4 @@ node and your file
 ```
 screenshot  ![](./Images/06-screenshot-working.PNG)
 link to repository (https://github.com/NA-Ag/09-Assignment-Auto-ReadMe)
+link to video (https://drive.google.com/file/d/1Ttw0_OXm5IhNnK7nAczhWMAtnkL0nG6W/view)
