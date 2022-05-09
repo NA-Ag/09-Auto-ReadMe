@@ -60,7 +60,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then((data) => {
         const dataForReadme = genMarkdown(data);
-        writeToFile("./generatedReadme/genratedReadMe.md", dataForReadme);
+        writeToFile("README.md", dataForReadme);
     });
 }
 
