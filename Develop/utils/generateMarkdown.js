@@ -117,8 +117,8 @@ function renderLicenseSection(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (licenseChoice === "None") return "No license"
-  return `This project is licensed under the ${licenseChoice} license`
+  if (license === "None") return "No license"
+  return `This project is licensed under the ${license} license`
 }
 
 // TODO: Create a function to generate markdown for README
@@ -153,8 +153,6 @@ To run tests, run the following command:
 \`\`\`bash
 ${data.tests}
 \`\`\`
-## Questions
-If you have any questions about the repository, open an issue or contact me directly at ${data.email} . You can find more of my work at [https://github.com/${data.github}](https://github.com/${data.github}/).
 `;
 }
 
