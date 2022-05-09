@@ -51,12 +51,11 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    let generateMarkdown = generateMarkdown(data);
-    fs.writeFile(fileName, generateMarkdown, (err) => {
-        err ? console.log(err) : console.log("Serving up your README");
+    let genMarkdown = generateMarkdown(data);
+    fs.writeFile(fileName, genMarkdown, (err) => {
+        err ? console.log(err) : console.log("README created succesfully");
     })
 }
-
 
 // TODO: Create a function to initialize app
 function init() {
