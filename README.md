@@ -1,4 +1,4 @@
-# 09-Assignment-Auto-ReadMe
+# 09-Auto-ReadMe
 A generator of quality Read me files
 
 # README Generator
